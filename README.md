@@ -21,4 +21,24 @@ This repository contains a **production-ready Bash script** to install and confi
 ```bash
 git clone https://github.com/SahilDx777/docker-setup.git
 cd docker-setup
+```
+### 2️⃣ Make the script executable
+```bash
+chmod +x install-docker.sh
+```
+### 3️⃣ Run the script
+```bash
+./install-docker.sh
+```
+### 🧾 Verify Installation
+```bash
+docker --version
+docker info
 
+docker run hello-world
+```
+### You should see:
+```css
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+```

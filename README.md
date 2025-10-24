@@ -38,7 +38,7 @@ docker info
 docker run hello-world
 ```
 ### You should see:
-```css
+```txt
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
 ```
